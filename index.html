@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/UnitConverter/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter App</title>
+    <script type="module" crossorigin src="/UnitConverter/assets/index-c92048e5.js"></script>
+    <link rel="stylesheet" href="/UnitConverter/assets/index-b8dfefa6.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="--app-app-container">
+        <label id="--app-mode-switch-label" class="--app-switch">
+          <input id="--app-mode-checkbox" type="checkbox">
+          <span id="--app-mode-span" class="slider round"></span>
+        </label>
+        <span id="slider-text">Light</span>
+        <div id="--app-content-container">
+          <div id="user-input-container">
+            <h1 id="user-input-title">Metric/Imperial Unit Converter</h1>
+            <input name="user-input-value" id="user-input-value" type="number" min="0" max="999" />
+            <button id="convert-btn">Convert</button>
+          </div>
+          <div id="conversion-table-container" class="light-mode-conversion-table-container">
+            <div id="length-conversion-container" class="conversion-containers light-mode-conversion-containers">
+              <h2 class="conversion-title light-mode-conversion-title">Length (Meters/Feet)</h2>
+             <p class="spans-container light-mode-spans-container"> <span id="m2f" class="con-span-styling first-span">Meter to feet</span><span class="con-span-styling divider"> | </span><span id="f2m" class="con-span-styling">Feet to meters</span></p>
+            </div>
+            <div id="volume-conversion-container" class="conversion-containers light-mode-conversion-containers">
+              <h2 class="conversion-title light-mode-conversion-title">Volume (Liters/Gallons)</h2>
+              <p class="spans-container light-mode-spans-container"><span id="l2g" class="con-span-styling first-span">Liters to Gallons</span><span class="con-span-styling divider"> | </span><span id="g2l" class="con-span-styling">Gallons to Liters</span></p>
+            </div>
+            <div id="mass-conversion-container" class="conversion-containers light-mode-conversion-containers">
+              <h2 class="conversion-title light-mode-conversion-title">Mass (Kilograms/Pounds)</h2>
+              <p class="spans-container light-mode-spans-container"><span id="k2p" class="con-span-styling first-span">Kilos to Pounds</span><span class="con-span-styling divider"> | </span><span id="p2k" class="con-span-styling">Pounds to Kilos</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
